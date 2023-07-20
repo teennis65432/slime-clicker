@@ -12,8 +12,11 @@ to make run:
 open powershell in the same folder as this readme
 
 type these commands:
-	Scripts/activate
-	$env#FLASK_APP = app
-	flask run
+	
+ Scripts/activate
+ 
+$env#FLASK_APP = app
+	
+flask run
 
 Go to '127.0.0.1:5000/' in your web browser
