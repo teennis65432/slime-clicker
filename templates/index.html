@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <script src="{{ url_for('static', filename="js/jcanvas.min.js") }}")></script>
+  
+	<script src="{{ url_for('static', filename="js/script.js") }}"></script>
+  
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <input id="play" type="button" value="Play Game"></input>
+  <input id="pause" type="button" value="Pause" hidden></input>
+  
+  <ul id="pausemenu" hidden>
+  <li ><a id="resume" href="#">Resume</a></li>
+    <li id="aboutme"><a href="aboutme">About Me</a></li>
+    <li id="highscores"><a href="scores">High Scores</a></li>
+  </ul>
+  
+  <img id="title" src="static/graphics/slimelogo.png" width="636px" height="123px" >
+  
+</body>
