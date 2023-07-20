@@ -13,9 +13,7 @@ open powershell in the same folder as this readme
 
 type these commands:
 	
- Scripts/activate
- 
-$env#FLASK_APP = app
+Scripts/activate $env#FLASK_APP = app
 	
 flask run
 
